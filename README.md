@@ -1,3 +1,8 @@
+# Quiz 2 Pull Request
+This repo is also used for students to practice git pull requests 
+(Nathan Bennett, nb566818, Github: nbennett2019)
+
+
 # CS3560 - Example Project
 
 Example project that uses Doxygen, Makefile, Catch2, Travis CI.

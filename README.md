@@ -126,3 +126,6 @@ https://www.activestate.com/products/tcl/downloads/
 
 To use Homebrew's tcl-tk and pyenv 
 https://stackoverflow.com/questions/58400564/tcl-tk-tkinter-not-installing-via-homebrew-pyenv-on-macos-mojave
+
+Students are able to practice git pull requests
+

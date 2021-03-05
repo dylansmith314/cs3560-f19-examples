@@ -1,3 +1,7 @@
+---Note for Quiz---
+
+By the way this repo is used for students to practice pull requests, so please mind their dust.
+
 # CS3560 - Example Project
 
 Example project that uses Doxygen, Makefile, Catch2, Travis CI.

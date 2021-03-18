@@ -19,7 +19,7 @@ int sum_of_squares(int n) {
     }
     for (size_t i = existing_count; i < n+1; i++)
     {
-        g_count.push_back(INT_MAX);
+        g_count.push_back(INT8_MAX);
     }
     for (size_t i = existing_count; i < n+1; i++)
     {

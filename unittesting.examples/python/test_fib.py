@@ -13,6 +13,7 @@ import unittest
 # are separated.
 from fib import fib_func
 
+
 class TestFibFunc(unittest.TestCase):
     """
     Example of test cases that test the function.
@@ -23,6 +24,7 @@ class TestFibFunc(unittest.TestCase):
 
 
 from fib import Fib
+
 
 class TestFibClass(unittest.TestCase):
     """
@@ -43,6 +45,7 @@ class TestFibClass(unittest.TestCase):
         self.assertEqual([1], list(obj.get_all(1)))
         self.assertEqual([1, 1], list(obj.get_all(2)))
         self.assertEqual([1, 1, 2, 3, 5, 8], list(obj.get_all(6)))
+
 
 if __name__ == "__main__":
     unittest.main()

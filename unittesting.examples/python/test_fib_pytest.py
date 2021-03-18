@@ -4,6 +4,7 @@ Pytest Example.
 
 from fib import fib_func, Fib
 
+
 def test_fib_func():
     assert fib_func(1) == 1
     assert fib_func(2) == 1

@@ -1,8 +1,3 @@
-# Quiz 2 Pull Request
-This repo is also used for students to practice git pull requests 
-(Nathan Bennett, nb566818, Github: nbennett2019)
-
-
 # CS3560 - Example Project
 
 This repo is used for other students to practice git pull requests.

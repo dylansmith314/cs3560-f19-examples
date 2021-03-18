@@ -55,7 +55,7 @@ request, you will need multiple branches.
 After you finish part or all of the work, it is when the pull request is coming in. To be able to create one, you will need to "compare across fork"
 and select a branch from your repository.
 
-For HW9, TA will then goes over your pull request. If the TA request some changes to your pull request, you can create
+For HW9, TA will then go over your pull request. If the TA requests some changes to your pull request, you can create
 more commits that address the issues. When you push these new commits to your forked, GitHub should update pull request
 automatically.
 

@@ -18,7 +18,7 @@ This is a simple project that contains some of the tools used in the class. For 
 
 ## Git with commit message in Commitizen convention
 
-Some of commit message in this repository are following the Commitizen convention
+Some of the commit messages in this repository are following the Commitizen convention
 ([https://commitizen.github.io/cz-cli/](https://commitizen.github.io/cz-cli/)).
 
 ## Doxygen with Netlify

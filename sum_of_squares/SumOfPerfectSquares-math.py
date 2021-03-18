@@ -6,12 +6,12 @@ def sum_of_squares(n):
     if n**(0.5)==int(n**0.5):
         return 1
     c1=0
-    N=n
-    while (n&3==0):
+    m=n
+    while m//4 * 4 == m:
         #print(n, bin(n), n&3, n>>2, bin(n>>2), n&7)
-        n>>=2
+        m /= 4
         c1+=1
-    if n&7==7:
+    if m % 8 == 7:
         # if c1 == 0:
         #     print(f"{N} = {n:03}({n:#012b})")
         # elif c1==1:

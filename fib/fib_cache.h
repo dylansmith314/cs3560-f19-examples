@@ -11,9 +11,9 @@
   * @class FibCache
   * @brief Calculating Fibonacci with value caching
   *
-  * The class has internal vector that save the calulated values of fibbonacci number
+  * The class has an internal vector that saves the calulated values of the fibbonacci number
   * at position `n`. Thus, when the same value is requested again, the cached
-  * values is return.
+  * values are returned.
   */
 class FibCache {
 private:

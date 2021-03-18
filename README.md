@@ -136,16 +136,16 @@ https://stackoverflow.com/questions/58400564/tcl-tk-tkinter-not-installing-via-h
 **Standard Labels:**
 - These are standard labels that can be commonly used in repositories to help identify what the pull request or issue needs
 - breaking - Introduces a breaking change. 
-- good first issue - Indicates a good first issue for first-time contributers.
+- good first issue - Indicates a good first issue for first-time contributors.
 - help - Indicates that the maintainer wants help in an issue or pull request. 
 
 **Effort Labels:**
 - The label effort:<number> indicates the relative effort needed to complete this pull request or issue. 
-- These labels use a scale of fibonacci numbers from 1 to 13. 
+- These labels use a scale of Fibonacci numbers from 1 to 13. 
 - Examples: effort: 1, effort: 13, effort: 8
 
 **Priority Labels:**
-- These labels let the users know how urgent these issues or pull requests are, giving them a time frame of when they need to be resloved
+- These labels let the users know how urgent these issues or pull requests are, giving them a time frame of when they need to be resolved
 - These labels start with 'priority' then are followed by the time frame. 
 - Examples: priority: now, priority: 2day, priority: soon
 
@@ -159,24 +159,24 @@ https://stackoverflow.com/questions/58400564/tcl-tk-tkinter-not-installing-via-h
 
 **Type Labels:**
 - This label describes the type of issue or pull request it is. It is structured this way type:<what type it is>.
-- Examples: type: bug, type: fix, type: feature, ect...
+- Examples: type: bug, type: fix, type: feature, etc...
   - type: bug - this means that something isn't working
-  - type: chore - this means that there needs to be reorganizing done of the folder structure and other necessary tasks, but they aren't very impactful to the code
+  - type: chore - this means that there needs to be reorganizing done of the folder structure and other necessary tasks, but they earn't very impaction to the code
   - type: docs - this means that something related to documentation or information needs addressed
   - type: discussion - this means that there are questions, proposals, and other information that requires discussion
-  - type: feature - this means that there is a brand new functionallity, features, pages, workflows, endpoints, ect..
-  - type: fix - this means there is are iterations on an extisting feature/s or infrastructure
+  - type: feature - this means that there is a brand new functionality, features, pages, workflows, endpoints, etc..
+  - type: fix - this means there is are iterations on an existing feature/s or infrastructure
   - type: security - this means that something is vulnerable or not secure
   - type: testing - this means that this thing is related to the testing process
 
 **Work Labels:**
 - These Labels describe the kind of work involved in resolving the issue using Cynefin framework. 
- Cynefin framwork is a framework used in decision making, it offers different domains to help managers to characterize situations and make sense of behavior. 
+ Cynefin framework is a framework used in decision making, it offers different domains to help managers to characterize situations and make sense of behavior. 
 - Examples : work: complex, work: obvious
   - work: chaotic - this means the situation is chaotic and that novel practices were used
   - work: complex - this means that the situation is complex and that emergent practices were used
   - work: obvious - this means that the situation at hand is obvious and that the best practices were used
-  - work: complicatied - this means that the situation at hand is complicated and good practices were used
+  - work: complicated - this means that the situation at hand is complicated and good practices were used
 
 **Other Labels:**
 - These labels don't use a prefix just like the standard labels.

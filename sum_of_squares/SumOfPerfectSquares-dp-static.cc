@@ -1,3 +1,9 @@
+/* **************************************************
+    A function that, given an integer n (3 < n < 109), 
+    finds the length of the smallest list of perfect 
+    squares which add up to n.
+   **************************************************
+*/
 #include <iostream>
 #include <iomanip>
 #include <chrono>

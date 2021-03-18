@@ -24,7 +24,7 @@ bool sos(unsigned long n, long long k){
 }
 
 /**
- * Iterates through number i linearly until the conditions for the some of squares function are met
+ * Iterates through number i linearly until the conditions for the sum of squares function are met
  * 
  * @return unsigned long
  */

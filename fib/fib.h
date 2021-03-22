@@ -1,42 +1,40 @@
 /**
  * @file fib.h
  * @brief Define functions to calculate fibonacci.
+ * 
+ * This is the include file for the fibonacci library.
+ * It contains various functions to calculate the fibonacci
+ * number.
+ * 
  * @author Krerkkiat Chusap
  */
+#ifndef FIB_H
+#define FIB_H
 #include <iostream>
 
 /**
  * @brief Calculate Fibonacci recursively
+ * 
+ * This function will calculate the n-th Fibonacci recursively.
+ * The base cases for the calculation are:
+ * - n == 1 -> 1
+ * - n == 2 -> 1
+ * 
  * @param n The n-th position of the Fibonacci number to get.
  * @return The value of the Fibonacci number at position n-th.
  */
-int fib_recursive(int n) {
-    if (n == 1 || n == 2) {
-        return 1;
-    }
-
-    return fib_recursive(n - 1) + fib_recursive(n - 2);
-}
+int fib_recursive(int n);
 
 /**
  * @brief Calculate Fibonacci iteratively
+ * 
+ * This function calculates the n-th Fibonacci number iteratively. It
+ * starts from n==3 with the the following starting values:
+ * - n == 1 -> 1
+ * - n == 2 -> 1 
+ * 
  * @param n The n-th position of the Fibonacci number to get.
  * @return The value of the Fibonacci number at position n-th.
 */
-int fib_iterative(int n) {
-    int a, b, temp;
-    a = 1;
-    b = 1;
-
-    if (n == 1 || n == 2) {
-        return 1;
-    } 
-
-    for (int i = 3; i <= n; i++) {
-        temp = b;
-        b = a + b;
-        a = temp;
-    }
-
-    return b;
-}
+int fib_iterative(int n);
+#endif

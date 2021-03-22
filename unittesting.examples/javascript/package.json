@@ -1,0 +1,34 @@
+{
+  "name": "cs3560-unit-testing-example",
+  "version": "1.0.0",
+  "description": "Example of unit testing in JavaScript",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "selenium-webdriver": "^4.0.0-alpha.8",
+    "serve": "^11.3.2"
+  },
+  "scripts": {
+    "serve": "serve",
+    "test": "mocha --fgrep 'Fib Module'",
+    "test-browser": "mocha --fgrep 'Web App'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OU-CS3560/examples.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OU-CS3560/examples/issues"
+  },
+  "homepage": "https://github.com/OU-CS3560/examples#readme",
+  "engines": {
+    "node": ">=13.2.0"
+  },
+  "private": true
+}

@@ -1,16 +1,30 @@
-// Useful for showing data-races
-// 
-// Compile g++ -g -fopenmp test4.cc
-// Test:
-// valgrind --tool=helgrind a.out 
-//
+/**
+ * @file          test4a.cc
+ * @author        Dr. Chang Liu
+ * @editor:       Nathaniel Buchanan
+ * @date          November 7, 2019
+ *                Last Updated: March 15, 2021
+ * @university:   Ohio University
+ * @college:      Russ College of Engineering
+ * @brief         Useful for showing data-races 
+ * Compile g++ -g -fopenmp test4.cc
+ * Test:
+ * valgrind --tool=helgrind a.out 
+ * SLIGHTLY DIFFERENT FROM test4.cc
+ * */
 #include <iostream>
 
-int main() {
+/// Main Program
+int main() 
+{
   int sum = 0;
   #pragma omp parallel for
-  for (int i=0;i<100;i++) {
+  /// For loop that starts at 0 and goes to 99
+  for (int i = 0 ; i < 100 ; i++) 
+  {
     #pragma omp critical 
-       sum+=i;
+       sum += i;
   }
+  /// End of Main
+  return 0;
 }

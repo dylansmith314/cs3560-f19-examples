@@ -1,0 +1,99 @@
+Ballot
+0 John
+1 Jane
+Ballot
+0 John
+1 Jane
+Ballot
+1 John
+0 Jane
+
+Ballot
+0 John
+0 Jane
+Ballot
+1 John
+1 Jane
+Ballot
+0 John
+1 Jane
+
+Ballot
+1 John
+0 Jane
+Ballot
+1 John
+0 Jane
+Ballot
+0 John
+1 Jane
+
+Ballot
+0 John
+0 Jane
+Ballot
+1 John
+1 Jane
+Ballot
+0 John
+1 Jane
+
+Ballot
+0 John
+0 Jane
+Ballot
+1 John
+1 Jane
+Ballot
+1 John
+0 Jane
+
+Ballot
+1 John
+0 Jane
+Ballot
+1 John
+0 Jane
+Ballot
+0 John
+0 Jane
+
+Ballot
+1 John
+0 Jane
+Ballot
+1 John
+0 Jane
+Ballot
+1 John
+1 Jane
+
+Ballot
+1 John
+1 Jane
+Ballot
+1 John
+1 Jane
+Ballot
+1 John
+1 Jane
+
+Ballot
+0 John
+0 Jane
+Ballot
+0 John
+0 Jane
+Ballot
+0 John
+0 Jane
+
+Ballot
+1 John
+1 Jane
+Ballot
+0 John
+0 Jane
+Ballot
+1 John
+1 Jane

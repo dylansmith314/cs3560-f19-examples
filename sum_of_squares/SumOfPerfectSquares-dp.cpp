@@ -1,5 +1,11 @@
 // Sum-of-Squares solution using dynamic programming
 // Nathan Bennett
+
+/**
+ * @file SumOfPerfectSquares-dp.cpp
+ * @author Nathan Bennet
+ * @brief Provides a solution for the sum of perfect squares kata on codewars using dynamic programming
+*/
 #include <iostream>
 #include <iomanip>
 #include <cmath>

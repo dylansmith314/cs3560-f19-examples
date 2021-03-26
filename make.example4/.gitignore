@@ -1,0 +1,4 @@
+# Ignore the product of the Makefile.
+weather
+helloworld
+helloworld-dist.tar.gz
